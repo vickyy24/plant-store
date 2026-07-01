@@ -8,59 +8,9 @@ import HeroPlantCard from "./HeroPlantCard";
 import TrendyPlants from "./TrendyPlants";
 
 function Hero() {
-    const plants = [
-        {
-        id: 1,
-        name: "Aglaonema plant",
-        description:
-            "The Aglaonema plant, commonly known as Chinese Evergreen known for its attractive foliage and ease of care.",
-        price: "Rs. 300/-",
-        image: trendyPlant1,
-        },
-        {
-        id: 2,
-        name: "Plantain Lilies",
-        description:
-            "Hostas are primarily grown for their lush, decorative leaves, which come in a wide variety of shapes and sizes.",
-        price: "Rs. 380/-",
-        image: trendyPlant1,
-        },
-        {
-        id: 3,
-        name: "Cactus",
-        description:
-            "It is known for their ability to thrive in arid environments.",
-        price: "Rs. 259/-",
-        image: trendyPlant1,
-        },
-        {
-        id: 3,
-        name: "Cactus",
-        description:
-            "It is known for their ability to thrive in arid environments.",
-        price: "Rs. 259/-",
-        image: trendyPlant1,
-        },
-        {
-        id: 3,
-        name: "Cactus",
-        description:
-            "It is known for their ability to thrive in arid environments.",
-        price: "Rs. 259/-",
-        image: trendyPlant1,
-        },
-        {
-        id: 3,
-        name: "Cactus",
-        description:
-            "It is known for their ability to thrive in arid environments.",
-        price: "Rs. 259/-",
-        image: trendyPlant1,
-        },
-    ];
 
     return (
-        <section className="relative min-h-screen  bg-[#1B2316]">
+        <section className="relative min-h-screen">
             {/* Background Image */}
             <img src={heroBg} alt="Hero Background" className="absolute top-0 left-0 h-full w-full object-cover lg:h-648 lg:w-432 lg:-top-50 lg:left-1/2 lg:-translate-x-1/2"/>
 
