@@ -1,9 +1,11 @@
+import Home from "./pages/Home";
+
 function App() {
-  return (
-    <div className="min-h-screen">
-      <h1>Plant Store</h1>
-    </div>
-  );
+    return(
+        <>
+            <Home />
+        </>
+    );
 }
 
 export default App;
