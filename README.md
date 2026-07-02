@@ -1,16 +1,104 @@
-# React + Vite
+# 🌿 Plant Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Plant Store landing page built with **React.js**, **Vite**, and **Tailwind CSS**. This project recreates the provided Figma design using reusable React components with a responsive layout for desktop, tablet, and mobile devices.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Live Website:**  
+https://plant-store-j6fdq6gzf-vickyy24s-projects.vercel.app/
 
-## React Compiler
+## 📂 GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Repository:**  
+https://github.com/vickyy24/plant-store
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- Tailwind CSS
+- JavaScript (ES6+)
+- React Icons
+
+## ✨ Features
+
+- Responsive UI for Desktop, Tablet, and Mobile
+- Pixel-inspired implementation based on the provided Figma design
+- Reusable React Components
+- Responsive Navigation Bar
+- Hero Section
+- Trending Plants Section
+- Top Selling Plants Section
+- Customer Reviews Section
+- O₂ Plants Section
+- Newsletter Subscription Footer
+- Hover Effects & Interactive UI
+
+## 📁 Project Structure
+
+```text
+plant-store
+├── public
+├── src
+│   ├── assets
+│   ├── components
+│   ├── data
+│   ├── pages
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/vickyy24/plant-store.git
+```
+
+Navigate to the project:
+
+```bash
+cd plant-store
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser:
+
+```text
+http://localhost:5173
+```
+
+## 📦 Production Build
+
+Build the application:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## 👨‍💻 Author
+
+**Vikas Sontakke**
+
+GitHub: https://github.com/vickyy24
